@@ -1,0 +1,10 @@
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\bin\Debug\HelloWoldLana.exe.config
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\bin\Debug\HelloWoldLana.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\bin\Debug\HelloWoldLana.pdb
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\obj\Debug\HelloWoldLana.csprojAssemblyReference.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\obj\Debug\HelloWoldLana.frmHelloWold.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\obj\Debug\HelloWoldLana.Properties.Resources.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\obj\Debug\HelloWoldLana.csproj.GenerateResource.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\obj\Debug\HelloWoldLana.csproj.CoreCompileInputs.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\obj\Debug\HelloWoldLana.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\Zahr Eddin, Lana (s453557)\Introduction\HelloWoldLana\HelloWoldLana\obj\Debug\HelloWoldLana.pdb
