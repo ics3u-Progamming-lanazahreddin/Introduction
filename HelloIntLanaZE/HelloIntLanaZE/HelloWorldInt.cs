@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace HelloIntLanaZE
 {
-    static class Program
+    static class HelloWorldInt
     {
         /// <summary>
         /// The main entry point for the application.

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Lana ZE
+ * Created on: D13-09-2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #8 - Hello World International
+ * This program will display "Hello,World!" in 4 different languages
+ * once u click on a language itwill change automatically
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -41,7 +49,7 @@ namespace HelloIntLanaZE
 
         private void RadArabic_CheckedChanged(object sender, EventArgs e)
         {
-            this.lblHelloWorld.Text = "مرحبا بالعالم!";
+            this.lblHelloWorld.Text = "!مرحبا بالعالم";
         }
 
         private void RadFilipino_CheckedChanged(object sender, EventArgs e)

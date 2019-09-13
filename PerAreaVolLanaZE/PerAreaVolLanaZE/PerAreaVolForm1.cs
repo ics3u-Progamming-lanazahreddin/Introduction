@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Lana ZE
+ * Created on: 12-09-2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #7 - Perimeter, Area, Volume by lana ZE
+ * This program calculates the perimeter of a rectangle, rae of a circle and the volume of a sphere 
+ * with an already given value
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
