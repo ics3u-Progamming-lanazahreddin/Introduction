@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HelloIntLanaZE
 {
-    public partial class Form1 : Form
+    public partial class frmHelloWorldInt : Form
     {
-        public Form1()
+        public frmHelloWorldInt()
         {
             InitializeComponent();
         }
@@ -29,12 +29,24 @@ namespace HelloIntLanaZE
 
         private void RadEnglish_CheckedChanged(object sender, EventArgs e)
         {
-            this.lblHelloWorld.Text = "hi";
+            this.lblHelloWorld.Text = "hello, World!";
         }
 
         private void RadSpanish_CheckedChanged(object sender, EventArgs e)
         {
-            this.lblHelloWorld.Text = "Ola"; 
+            this.lblHelloWorld.Text = "Hola, Mundo!";
+
+
+       }
+
+        private void RadArabic_CheckedChanged(object sender, EventArgs e)
+        {
+            this.lblHelloWorld.Text = "مرحبا بالعالم!";
+        }
+
+        private void RadFilipino_CheckedChanged(object sender, EventArgs e)
+        {
+            this.lblHelloWorld.Text = "Kumusta, Mundo!";
         }
     }
 }

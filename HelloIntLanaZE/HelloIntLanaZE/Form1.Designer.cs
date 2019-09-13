@@ -1,6 +1,6 @@
 ﻿namespace HelloIntLanaZE
 {
-    partial class Form1
+    partial class frmHelloWorldInt
     {
         /// <summary>
         /// Required designer variable.
@@ -30,22 +30,23 @@
         {
             this.lblHelloWorld = new System.Windows.Forms.Label();
             this.grbLanguages = new System.Windows.Forms.GroupBox();
-            this.radEnglish = new System.Windows.Forms.RadioButton();
-            this.radSpanish = new System.Windows.Forms.RadioButton();
-            this.radArabic = new System.Windows.Forms.RadioButton();
             this.radFilipino = new System.Windows.Forms.RadioButton();
+            this.radArabic = new System.Windows.Forms.RadioButton();
+            this.radSpanish = new System.Windows.Forms.RadioButton();
+            this.radEnglish = new System.Windows.Forms.RadioButton();
             this.grbLanguages.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblHelloWorld
             // 
             this.lblHelloWorld.AutoSize = true;
-            this.lblHelloWorld.Font = new System.Drawing.Font("GOST Common", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHelloWorld.Location = new System.Drawing.Point(185, 9);
+            this.lblHelloWorld.Font = new System.Drawing.Font("ScriptS_IV25", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHelloWorld.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lblHelloWorld.Location = new System.Drawing.Point(154, 46);
             this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(396, 78);
+            this.lblHelloWorld.Size = new System.Drawing.Size(428, 102);
             this.lblHelloWorld.TabIndex = 0;
-            this.lblHelloWorld.Text = "Hello, World!";
+            this.lblHelloWorld.Text = "Hello,World!";
             this.lblHelloWorld.Click += new System.EventHandler(this.LblHelloWorld_Click);
             // 
             // grbLanguages
@@ -55,6 +56,7 @@
             this.grbLanguages.Controls.Add(this.radSpanish);
             this.grbLanguages.Controls.Add(this.radEnglish);
             this.grbLanguages.Font = new System.Drawing.Font("Gentium Basic", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbLanguages.ForeColor = System.Drawing.Color.Navy;
             this.grbLanguages.Location = new System.Drawing.Point(12, 183);
             this.grbLanguages.Name = "grbLanguages";
             this.grbLanguages.Size = new System.Drawing.Size(776, 149);
@@ -63,17 +65,29 @@
             this.grbLanguages.Text = "Languages";
             this.grbLanguages.Enter += new System.EventHandler(this.Grp1_Enter);
             // 
-            // radEnglish
+            // radFilipino
             // 
-            this.radEnglish.AutoSize = true;
-            this.radEnglish.Location = new System.Drawing.Point(43, 65);
-            this.radEnglish.Name = "radEnglish";
-            this.radEnglish.Size = new System.Drawing.Size(112, 36);
-            this.radEnglish.TabIndex = 0;
-            this.radEnglish.TabStop = true;
-            this.radEnglish.Text = "English";
-            this.radEnglish.UseVisualStyleBackColor = true;
-            this.radEnglish.CheckedChanged += new System.EventHandler(this.RadEnglish_CheckedChanged);
+            this.radFilipino.AutoSize = true;
+            this.radFilipino.Location = new System.Drawing.Point(611, 68);
+            this.radFilipino.Name = "radFilipino";
+            this.radFilipino.Size = new System.Drawing.Size(115, 36);
+            this.radFilipino.TabIndex = 3;
+            this.radFilipino.TabStop = true;
+            this.radFilipino.Text = "Filipino";
+            this.radFilipino.UseVisualStyleBackColor = true;
+            this.radFilipino.CheckedChanged += new System.EventHandler(this.RadFilipino_CheckedChanged);
+            // 
+            // radArabic
+            // 
+            this.radArabic.AutoSize = true;
+            this.radArabic.Location = new System.Drawing.Point(428, 68);
+            this.radArabic.Name = "radArabic";
+            this.radArabic.Size = new System.Drawing.Size(106, 36);
+            this.radArabic.TabIndex = 2;
+            this.radArabic.TabStop = true;
+            this.radArabic.Text = "Arabic";
+            this.radArabic.UseVisualStyleBackColor = true;
+            this.radArabic.CheckedChanged += new System.EventHandler(this.RadArabic_CheckedChanged);
             // 
             // radSpanish
             // 
@@ -87,37 +101,27 @@
             this.radSpanish.UseVisualStyleBackColor = true;
             this.radSpanish.CheckedChanged += new System.EventHandler(this.RadSpanish_CheckedChanged);
             // 
-            // radArabic
+            // radEnglish
             // 
-            this.radArabic.AutoSize = true;
-            this.radArabic.Location = new System.Drawing.Point(428, 68);
-            this.radArabic.Name = "radArabic";
-            this.radArabic.Size = new System.Drawing.Size(106, 36);
-            this.radArabic.TabIndex = 2;
-            this.radArabic.TabStop = true;
-            this.radArabic.Text = "Arabic";
-            this.radArabic.UseVisualStyleBackColor = true;
+            this.radEnglish.AutoSize = true;
+            this.radEnglish.Location = new System.Drawing.Point(43, 65);
+            this.radEnglish.Name = "radEnglish";
+            this.radEnglish.Size = new System.Drawing.Size(112, 36);
+            this.radEnglish.TabIndex = 0;
+            this.radEnglish.TabStop = true;
+            this.radEnglish.Text = "English";
+            this.radEnglish.UseVisualStyleBackColor = true;
+            this.radEnglish.CheckedChanged += new System.EventHandler(this.RadEnglish_CheckedChanged);
             // 
-            // radFilipino
-            // 
-            this.radFilipino.AutoSize = true;
-            this.radFilipino.Location = new System.Drawing.Point(611, 68);
-            this.radFilipino.Name = "radFilipino";
-            this.radFilipino.Size = new System.Drawing.Size(115, 36);
-            this.radFilipino.TabIndex = 3;
-            this.radFilipino.TabStop = true;
-            this.radFilipino.Text = "Filipino";
-            this.radFilipino.UseVisualStyleBackColor = true;
-            // 
-            // Form1
+            // frmHelloWorldInt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.grbLanguages);
             this.Controls.Add(this.lblHelloWorld);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmHelloWorldInt";
+            this.Text = "Hello World International ";
             this.grbLanguages.ResumeLayout(false);
             this.grbLanguages.PerformLayout();
             this.ResumeLayout(false);
