@@ -37,23 +37,25 @@ namespace HelloIntLanaZE
 
         private void RadEnglish_CheckedChanged(object sender, EventArgs e)
         {
+            //this label says hello world in english when clicked
             this.lblHelloWorld.Text = "hello, World!";
         }
 
         private void RadSpanish_CheckedChanged(object sender, EventArgs e)
         {
+            //this label says hello world in Spanish
             this.lblHelloWorld.Text = "Hola, Mundo!";
-
-
        }
 
         private void RadArabic_CheckedChanged(object sender, EventArgs e)
         {
+            //this label says hello world in Arabic
             this.lblHelloWorld.Text = "!مرحبا بالعالم";
         }
 
         private void RadFilipino_CheckedChanged(object sender, EventArgs e)
         {
+            //This label says hello world in Filipino
             this.lblHelloWorld.Text = "Kumusta, Mundo!";
         }
     }

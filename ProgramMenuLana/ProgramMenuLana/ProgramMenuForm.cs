@@ -39,5 +39,10 @@ namespace ProgramMenuLana
             // this will exit the program
             this.Close();
         }
+
+        private void FrmProgramMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -95,7 +95,7 @@
             // mniExit
             // 
             this.mniExit.Name = "mniExit";
-            this.mniExit.Size = new System.Drawing.Size(180, 22);
+            this.mniExit.Size = new System.Drawing.Size(93, 22);
             this.mniExit.Text = "Exit";
             this.mniExit.Click += new System.EventHandler(this.MniExit_Click);
             // 
@@ -111,6 +111,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmProgramMenu";
             this.Text = "Program Menu by Lana ZE";
+            this.Load += new System.EventHandler(this.FrmProgramMenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picCR7)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

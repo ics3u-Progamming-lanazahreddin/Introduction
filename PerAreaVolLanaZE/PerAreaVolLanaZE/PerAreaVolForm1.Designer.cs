@@ -71,27 +71,24 @@
             this.lblAPerimeter.AutoSize = true;
             this.lblAPerimeter.Location = new System.Drawing.Point(543, 73);
             this.lblAPerimeter.Name = "lblAPerimeter";
-            this.lblAPerimeter.Size = new System.Drawing.Size(35, 13);
+            this.lblAPerimeter.Size = new System.Drawing.Size(0, 13);
             this.lblAPerimeter.TabIndex = 3;
-            this.lblAPerimeter.Text = "label1";
             // 
             // lblAArea
             // 
             this.lblAArea.AutoSize = true;
             this.lblAArea.Location = new System.Drawing.Point(543, 215);
             this.lblAArea.Name = "lblAArea";
-            this.lblAArea.Size = new System.Drawing.Size(35, 13);
+            this.lblAArea.Size = new System.Drawing.Size(0, 13);
             this.lblAArea.TabIndex = 4;
-            this.lblAArea.Text = "label1";
             // 
             // lblAVolume
             // 
             this.lblAVolume.AutoSize = true;
             this.lblAVolume.Location = new System.Drawing.Point(543, 352);
             this.lblAVolume.Name = "lblAVolume";
-            this.lblAVolume.Size = new System.Drawing.Size(35, 13);
+            this.lblAVolume.Size = new System.Drawing.Size(0, 13);
             this.lblAVolume.TabIndex = 5;
-            this.lblAVolume.Text = "label1";
             // 
             // frmPerAreaVolForm1
             // 
